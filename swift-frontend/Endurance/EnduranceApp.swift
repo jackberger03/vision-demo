@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct VisionDemoApp: App {
+struct EnduranceApp: App {
     var body: some Scene {
         WindowGroup {
             ChatContextProvider {

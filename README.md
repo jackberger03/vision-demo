@@ -74,13 +74,13 @@ This project includes a sample iOS app that you can build yourself.
 
 ### Setup
 
-1. Open `swift-frontend/VisionDemo/VisionDemo.xcodeproj` in Xcode.
-2. Create a file `swift-frontend/VisionDemo/Resources/Secrets.xcconfig` with `LK_SANDBOX_TOKEN_SERVER_ID=` and your token server's unique ID.
-3. Edit the bundle identifier for the `VisionDemo` target to a suitable values for your own use.
+1. Open `swift-frontend/Endurance/Endurance.xcodeproj` in Xcode.
+2. Create a file `swift-frontend/Endurance/Resources/Secrets.xcconfig` with `LK_SANDBOX_TOKEN_SERVER_ID=` and your token server's unique ID.
+3. Edit the bundle identifier for the `Endurance` target to a suitable values for your own use.
 4. Edit the bundle identifier for the `BroadcastExtension` to `<your-bundle-identifier>.broadcast`.
-4. Create a new App Group called `group.<your-bundle-identifier>` and select it in the "Signing & Capabilities" section of the `VisionDemo` target.
+4. Create a new App Group called `group.<your-bundle-identifier>` and select it in the "Signing & Capabilities" section of the `Endurance` target.
 7. Build and run the app on your device.
 
 # Self-Hosted Options
 
-This project is built with the LiveKit Cloud [Sandbox token server](https://cloud.livekit.io/projects/p_/sandbox/templates/token-server) to make token generation easy. If you want to self-host or run a local LiveKit instance, you'll need to modify `swift-frontend/VisionDemo/Services/TokenService.swift` file to fetch your token from your own server and remove the `noise-cancellation` plugin from the agent ([enhanced noise cancellation](https://docs.livekit.io/cloud/noise-cancellation/) is a LiveKit Cloud feature).
+This project is built with the LiveKit Cloud [Sandbox token server](https://cloud.livekit.io/projects/p_/sandbox/templates/token-server) to make token generation easy. If you want to self-host or run a local LiveKit instance, you'll need to modify `swift-frontend/Endurance/Services/TokenService.swift` file to fetch your token from your own server and remove the `noise-cancellation` plugin from the agent ([enhanced noise cancellation](https://docs.livekit.io/cloud/noise-cancellation/) is a LiveKit Cloud feature).

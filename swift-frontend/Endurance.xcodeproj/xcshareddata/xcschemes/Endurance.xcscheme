@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B5C2EF1F2D08AF6900FAC766"
-               BuildableName = "VisionDemo.app"
-               BlueprintName = "VisionDemo"
-               ReferencedContainer = "container:VisionDemo.xcodeproj">
+               BuildableName = "Endurance.app"
+               BlueprintName = "Endurance"
+               ReferencedContainer = "container:Endurance.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B5C2EF1F2D08AF6900FAC766"
-            BuildableName = "VisionDemo.app"
-            BlueprintName = "VisionDemo"
-            ReferencedContainer = "container:VisionDemo.xcodeproj">
+            BuildableName = "Endurance.app"
+            BlueprintName = "Endurance"
+            ReferencedContainer = "container:Endurance.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B5C2EF1F2D08AF6900FAC766"
-            BuildableName = "VisionDemo.app"
-            BlueprintName = "VisionDemo"
-            ReferencedContainer = "container:VisionDemo.xcodeproj">
+            BuildableName = "Endurance.app"
+            BlueprintName = "Endurance"
+            ReferencedContainer = "container:Endurance.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
